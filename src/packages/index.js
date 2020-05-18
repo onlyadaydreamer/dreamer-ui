@@ -20,6 +20,11 @@ import Footer from './container/footer.vue';
 import Upload from './upload/upload.vue';
 import Progress from './upload/progress.vue';
 
+import Carousel from './carousel/carousel.vue';
+import CarouselItem from './carousel/carousel-item.vue';
+
+import infiniteScroll from './infiniteScroll.js';
+
 const install = (Vue) => {
     Vue.component(Button.name, Button);
     Vue.component(Icon.name, Icon);
@@ -36,6 +41,11 @@ const install = (Vue) => {
 
     Vue.component(Upload.name, Upload);
     Vue.component(Progress.name, Progress);
+    
+    Vue.component(Carousel.name, Carousel);
+    Vue.component(CarouselItem.name, CarouselItem);
+
+    Vue.directive(infiniteScroll.name, infiniteScroll);
 
 }
 
