@@ -1,13 +1,13 @@
 <template>
-   <svg class="dreamer-icon" aria-hidden="true">
-        <use :xlink:href="`#icon-${icon}`"></use>
+    <svg class="d-icon" aria-hidden="true">
+        <use :xlink:href="`#icon-${icon}`" />
     </svg>
 </template>
 
 <script>
 import '../styles/icon';
 export default {
-    name: 'dreamer-icon',
+    name: 'd-icon',
     props: {
         icon: {
             type: String,
@@ -18,9 +18,9 @@ export default {
 </script>
 
 <style lang="scss">
-.dreamer-icon {
-       width: 25px; 
-       height: 25px;
-       vertical-align: middle;
-    }
+.d-icon {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
 </style>

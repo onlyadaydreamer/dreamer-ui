@@ -1,12 +1,12 @@
 <template>
-   <div class="dreamer-button-group">
+   <div class="d-button-group">
        <slot></slot>
    </div>
 </template>
 
 <script>
 export default {
-    name: 'dreamer-button-group',
+    name: 'd-button-group',
     // 按钮组只能放按钮,这个需要校验
     mounted() {
         let children = this.$el.children;
@@ -18,8 +18,8 @@ export default {
 </script>
 
 <style lang="scss">
-@import '../styles/_var.scss';
-.dreamer-button-group {
+@import '../../styles/_var.scss';
+.d-button-group {
     position: relative;
     display: inline-flex;
     vertical-align: middle;
