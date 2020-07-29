@@ -2,7 +2,7 @@
 [![npm version](https://badge.fury.io/js/dreamer-ui.svg)](https://badge.fury.io/js/dreamer-ui)
 ## QuickStart
 ```bash
-npm install zh-ui
+npm install dreamer-ui
 ```
 
 ## usage
